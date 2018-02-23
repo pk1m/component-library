@@ -2,9 +2,9 @@
   "name": "component-library",
   "version": "1.0.0",
   "description": "Library for cratejoys shared react components",
-  "directories": {
-    "bin": "./lib"
-  },
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "styleguide": "styleguidist server",
