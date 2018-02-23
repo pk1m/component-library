@@ -1,0 +1,39 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "description": "Library for cratejoys shared react components",
+  "directories": {
+    "bin": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pk1m/component-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pk1m/component-library/issues"
+  },
+  "homepage": "https://github.com/pk1m/component-library#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-components": "^3.1.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "react-styleguidist": "^6.2.5",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.11.0",
+    "webpack-blocks": "^1.0.0-rc.2"
+  }
+}
